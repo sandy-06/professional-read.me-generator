@@ -1,10 +1,11 @@
 //TODO: Include packages needed for this application
 const { registerPrompt } = require('inquirer');
 const inquirer = require('inquirer');
+//const {writeToFile, copyFile} = require()
 
 
 // TODO: Create an array of questions for user input
-const questions = () => {
+const promptQuestions = () => {
     return inquirer.prompt([
       {
         type: 'input',
@@ -121,14 +122,14 @@ const questions = () => {
         message: 'Select a license from the list.',
         choices: ['MIT License', 'Apache', 'ISC License', 'BSD- Berkeley Software Distribution']
       }
-
-
     ])
 };
 //title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+//function writeToFile(generateMarkdown, data) {
+
+//}
 
 // TODO: Create a function to initialize app
 function init() {}
@@ -138,3 +139,10 @@ init();
 
 
 
+//const writeFilePromise = (file, data) => {
+ // return new Promise((resolve, reject) => {
+   //   fs.writeFile(file, data, error => {
+   //       if (error) reject(error);
+   //       resolve("file created successfully with handcrafted Promise!");
+   //   });
+//  });
