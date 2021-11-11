@@ -5,10 +5,7 @@ function renderLicenseBadge(license) {
     return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`;
   }
   return '';
-  //[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)]
- // [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]
- // [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
- // [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)]
+  
 }
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -28,11 +25,6 @@ function renderLicenseSection(license) {if (license !== 'None') {
 }
 return '';
 
-  //https://opensource.org/licenses/BSD-3-Clause
- // https://opensource.org/licenses/Apache-2.0
- // https://opensource.org/licenses/MIT
-  //https://opensource.org/licenses/MPL-2.0
-
 }
 
 
@@ -40,7 +32,7 @@ return '';
 
  //TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return  `# ${data.title}
   ${renderLicenseBadge(data.license)}
   
   ## Description
@@ -63,8 +55,11 @@ function generateMarkdown(data) {
   ## Tests
   ${data.tests}
   ## Questions
-  ${data.questions}
-
+  For information you can contact me this way.
+  ${data.fullName}
+  ${data.email}
+  ${data.githubUserName}
+  
 `;
 }
 

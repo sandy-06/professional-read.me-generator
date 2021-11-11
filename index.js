@@ -42,14 +42,14 @@ function promptQuestions()  {
           if (githubUserNameInput) {
             return true;
           } else {
-            console.log('Please enter your email address!');
+            console.log('Please enter your gitHut user name!');
             return false;
           }
         }
       },
       {
         type: 'input',
-        name: 'repoName',
+        name: 'title',
         message: 'What is your Repository Name? (Required)',
         validate: repoNameInput => {
           if (repoNameInput) {
@@ -121,7 +121,7 @@ function promptQuestions()  {
         type: "list",
         name: 'license',
         message: 'Select a license from the list.',
-        choices: ['MIT License', 'Apache', 'ISC License', 'BSD- Berkeley Software Distribution']
+        choices: ['BSD-3-Clause', 'Apache-2.0', 'MIT', 'MPL-2.0']
       }
     ])
 };
