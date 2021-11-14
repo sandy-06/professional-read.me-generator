@@ -1,8 +1,8 @@
-# undefined
-  ![GitHub license](https://img.shields.io/badge/license-MIT License-blue.svg)
+# who
+  ![GitHub license](https://img.shields.io/badge/license-Apache-2.0-blue.svg)
   
   ## Description
-  it was fun
+  someing
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -11,15 +11,18 @@
   * [Tests](#tests)
   * [Questions](#questions)
   ## Installation
-  none
+  node indes.js
   ## Usage
   undefined
   ## License
-  ![GitHub license](https://opensource.org/licenses/MIT License)
+  undefined
   ## Contributing
-  nonone
+  s
   ## Tests
   none
   ## Questions
-  undefined
-
+  For information you can contact me this way.</br>
+  sandy</br>
+  sadny</br>
+  sandy
+  
