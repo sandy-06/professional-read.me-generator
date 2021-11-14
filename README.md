@@ -1,8 +1,8 @@
-# who
+# run-buddy
   ![GitHub license](https://img.shields.io/badge/license-Apache-2.0-blue.svg)
   
   ## Description
-  someing
+  a fitness site for people wanting help increasing there running ability. There are personal trainers and encouragement available.
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -11,18 +11,18 @@
   * [Tests](#tests)
   * [Questions](#questions)
   ## Installation
-  node indes.js
+  non
   ## Usage
   undefined
   ## License
-  undefined
+  (data.license)
   ## Contributing
-  s
+  Sandy
   ## Tests
   none
   ## Questions
-  For information you can contact me this way.</br>
-  sandy</br>
-  sadny</br>
-  sandy
+  For information you can contact me this way.<br />
+  Sandy Sanders<br />
+  sandy-sanders@msn.com<br />
+  sandy-06
   

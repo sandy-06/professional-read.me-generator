@@ -121,7 +121,7 @@ function promptQuestions()  {
         type: "list",
         name: 'license',
         message: 'Select a license from the list.',
-        choices: ['Apache-2.0', 'MIT', 'MPL-2.0']
+        choices: ['Apache', 'MIT', 'BSD']
       }
     ])
 };
