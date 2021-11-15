@@ -19,7 +19,7 @@ THEN I am taken to the corresponding section of the README
 ## Installation
 node, inquirer and json must be installed to use
 ##useage
-![alt]./Screenshot20211114143715.png
+![alt text](/Screenshot20211114143715.png
 ##Contributing
 Sandy Sanders
 ## Tests none
